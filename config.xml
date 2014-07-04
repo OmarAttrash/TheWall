@@ -35,7 +35,7 @@
 		<icon src="res/touch-icon.png"  gap:platform="ios"/>
 		<icon src="res/touch-icon.png"  gap:platform="android"/>
 		
-	
+		<gap:splash src="res/startup-image.png"/>
 		
 		<feature name="http://api.phonegap.com/1.0/network" />
 		
