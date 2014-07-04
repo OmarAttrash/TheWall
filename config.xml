@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.TheWall"
+		versionCode="1"
+        version   = "1.0.0">
+
+        <name>TheWall</name>
+        <description>
+            Post something on the wall. (every one can see it)
+        </description>
+        <author email="omar.attrash@gmail.com" href="http://thewall2.herokuapp.com">
+			Omar Attrash
+        </author>
+		<gap:platform name="ios" />
+		<gap:platform name="android" />
+		<gap:platform name="winphone" />
+		
+		<preference name="fullscreen" value="false" />
+		
+		<preference name="webviewbounce" value="false" />
+		<preference name="DisallowOverscroll" value="true" />
+		<preference name="disallowOverscroll" value="true" />
+		<preference name="android-minSdkVersion" value="11" />
+		<preference name="android-installLocation" value="auto" />
+		<preference name="BackgroundColor" value="0xffffffff" />
+		
+		<icon src="res/touch-icon.png" />
+		<gap:splash src="res/startup-image.png">
+		
+		<feature name="http://api.phonegap.com/1.0/network" />
+		
+		
+    <gap:plugin name="org.apache.cordova.media-capture" />
+    <gap:plugin name="org.apache.cordova.console" />
+    <gap:plugin name="org.apache.cordova.contacts" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.device-motion" />
+    <gap:plugin name="org.apache.cordova.device-orientation" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.file-transfer" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.globalization" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <gap:plugin name="org.apache.cordova.media" />
+    <gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.vibration" />
+	
+	<access origin="*" subdomains="true" />
+    </widget>
