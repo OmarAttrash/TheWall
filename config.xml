@@ -24,7 +24,15 @@
 		
 		
 		
-	
+		<preference  name="fullscreen" value="false" />
+		<preference  name="webviewbounce" value="false" />
+		<preference  name="DisallowOverscroll" value="true" />
+		<preference  name="disallowOverscroll" value="true" />
+		<preference  name="android-minSdkVersion" value="11" />
+		<preference  name="android-installLocation" value="auto" />
+		<preference  name="BackgroundColor" value="0xffffffff" />
+		
+		
 		
 		
     <gap:plugin name="org.apache.cordova.media-capture" />
