@@ -13,18 +13,23 @@
         <author email="omar.attrash@gmail.com" href="http://thewall2.herokuapp.com">
 			Omar Attrash
         </author>
-		<gap:platforms name="ios" />
-		<gap:platforms name="android" />
-		<gap:platforms name="winphone" />
 		
-		<preference name="fullscreen" value="false" />
 		
-		<preference name="webviewbounce" value="false" />
-		<preference name="DisallowOverscroll" value="true" />
-		<preference name="disallowOverscroll" value="true" />
-		<preference name="android-minSdkVersion" value="11" />
-		<preference name="android-installLocation" value="auto" />
-		<preference name="BackgroundColor" value="0xffffffff" />
+		<gap:platforms>
+			<gap:platform name="ios" />
+			<gap:platform name="android" />
+			<gap:platform name="winphone" />
+		</gap:platforms>
+		
+		
+		<preference  name="fullscreen" value="false" />
+		
+		<preference  name="webviewbounce" value="false" />
+		<preference  name="DisallowOverscroll" value="true" />
+		<preference  name="disallowOverscroll" value="true" />
+		<preference  name="android-minSdkVersion" value="11" />
+		<preference  name="android-installLocation" value="auto" />
+		<preference  name="BackgroundColor" value="0xffffffff" />
 		
 		<icon src="res/touch-icon.png"  gap:platform="ios"/>
 		<icon src="res/touch-icon.png"  gap:platform="android"/>
