@@ -33,6 +33,9 @@
 		<preference  name="BackgroundColor" value="0xffffffff" />
 		
 		
+		<gap:splash src="res/startup-image.png">
+		
+		<feature name="http://api.phonegap.com/1.0/network" />
 		
 		
     <gap:plugin name="org.apache.cordova.media-capture" />
